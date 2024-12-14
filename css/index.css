@@ -1,0 +1,38 @@
+body{
+    background-color: #1e202b;
+    color: white;
+}
+a{
+    color: white !important;
+    &:hover{
+        color: #009ad8 !important;
+    }
+}
+.nav-link{
+    --bs-navbar-nav-link-padding-x: 1rem;
+}
+.bg-body-tertiary{
+    background-color:#2d3976 !important;
+}
+
+.active{
+    color: #009ad8 !important;
+}
+#location{
+background-color: #1e202b;
+color: white !important;
+}
+
+::placeholder {
+    color: #009ad8 !important;
+}
+.card{
+    color: white;
+    background-color: #4c516e;
+}
+.card-header{
+    background-color: #1e202b;
+}
+footer{
+    background-color:#2d3976 !important;
+}
